@@ -1,0 +1,135 @@
+{
+	"navigation": [{
+		"title": "Home",
+		"icon": "sap-icon://home",
+		"expanded": false,
+		"key": "home",
+		"items": []
+	}, {
+		"title": "Browse",
+		"icon": "sap-icon://bbyd-dashboard",
+		"expanded": true,
+		"key": "Brevo Dashboard",
+		"items": [{
+			"title": "Dashboards - Brevo",
+			"icon": "sap-icon://bbyd-dashboard",
+			"expanded": false,
+			"componentName ": "Brevo.Brevo_V2",
+			"URL": "current",
+			"key": "Browser_Brevo",
+			"items": []
+		}, {
+			"title": "Drilldowns - PANA",
+			"icon": "sap-icon://manager-insight",
+			"expanded": false,
+			"URL": "Pana_Viewer",
+			"componentName": "reportpreview",
+			"key": "Browser_Pana",
+			"items": []
+		}, {
+			"title": "Decision Tree",
+			"icon": "sap-icon://tree",
+			"expanded": false,
+			"URL": "ibrevoDtree",
+			"componentName": "ibrevoVDT",
+			"key": "Browse_DTree",
+			"items": []
+		}]
+	}, {
+		"title": "Create",
+		"icon": "sap-icon://create",
+		"expanded": true,
+		"key": "Content Creator",
+		"items": [{
+			"title": "Dashboards - Brevo",
+			"icon": "sap-icon://bbyd-dashboard",
+			"expanded": true,
+			"URL": "current",
+			"key": "Create_Brevo",
+			"items": [{
+				"title": "KPI - in the current Dashboard",
+				"icon": "sap-icon://add",
+				"expanded": false,
+				"componentName": "Brevo.Brevo_V2",
+				"URL": "current",
+				"key": "Dashboards - Brevo",
+				"items": []
+			}]
+		}, {
+			"title": "Drilldowns - PANA",
+			"icon": "sap-icon://manager-insight",
+			"expanded": false,
+			"URL": "Pana_Builder",
+			"componentName": "analyticreportbuilder",
+			"key": "Pana_Builder",
+			"items": []
+		}, {
+			"title": "Decision Tree",
+			"icon": "sap-icon://tree",
+			"expanded": false,
+			"componentName": "ibrevoVDT",
+			"key": "DTree Breakdown",
+			"items": []
+		}]
+	}, {
+		"title": "Settings",
+		"icon": "sap-icon://role",
+		"expanded": false,
+		"key": "DTree Breakdown",
+		"items": [{
+			"title": "Modeling",
+			"icon": "sap-icon://database",
+			"expanded": false,
+			"componentName": "Brevo.Brevo_V2",
+			"URL": "https://querybuilder-p2000488727trial.dispatcher.hanatrial.ondemand.com/index.html?hc_reset",
+			"key": "modeling",
+			"items": []
+		}, {
+			"title": "File Scheduler",
+			"icon": "sap-icon://timesheet",
+			"expanded": false,
+			"componentName": "Brevo.Brevo_V2",
+			"URL": "https://filescheduler-a0e6fe04b.dispatcher.hana.ondemand.com/index.html?hc_reset",
+			"key": "filescheduler",
+			"items": []
+		}, {
+			"title": "User Management",
+			"icon": "sap-icon://user-edit",
+			"expanded": false,
+			"componentName": "Brevo.Brevo_V2",
+			"URL": "https://usermanagementsecurity-s0016289743trial.dispatcher.hanatrial.ondemand.com/index.html?hc_reset",
+			"key": "Dashboards - Brevo",
+			"items": []
+		}]
+	}],
+	"fixedNavigation": [{
+		"title": "Important Links",
+		"icon": "sap-icon://chain-link",
+		"key": "Important Links was pressed"
+	}, {
+		"title": "Legal",
+		"icon": "sap-icon://compare",
+		"key": "Legal was pressed"
+	}],
+	"masterSettings": [{
+		"title": "System Settings",
+		"key": "systemSettings",
+		"selected": true
+	}, {
+		"title": "Order Settings",
+		"key": "orderSettings",
+		"selected": false
+	}, {
+		"title": "Supplier Settings",
+		"key": "supplierSettings",
+		"selected": false
+	}, {
+		"title": "Campaign Settings",
+		"key": "campaignSettings",
+		"selected": false
+	}, {
+		"title": "Shipping Settings",
+		"key": "shipping Settings",
+		"selected": false
+	}]
+}
